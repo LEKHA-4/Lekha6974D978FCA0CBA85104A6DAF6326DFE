@@ -1,1 +1,21 @@
-# Lekha6974D978FCA0CBA85104A6DAF6326DFE
+*Program :2*
+
+class Player:
+    def play(self):
+        print("The player is playing cricket.")
+
+class Batsman(Player):
+    def play(self):
+        print("The batsman is batting.")
+
+class Bowler(Player):
+    def play(self):
+        print("The bowler is bowling.")
+
+# Creating objects of the Batsman and Bowler classes
+batsman = Batsman()
+bowler = Bowler()
+
+# Calling the play() method for each object
+batsman.play()
+bowler.play()# 
